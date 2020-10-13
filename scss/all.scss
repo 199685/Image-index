@@ -1,0 +1,138 @@
+.btn {
+    border-width: 2px;
+}
+
+.social {
+    text-align: right;
+}
+
+p {
+    font-size: 16px;
+}
+
+.header-carousel-item {
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+
+    .carousel-caption {
+        background: rgba(0, 0, 0, .35)
+    }
+
+
+}
+
+.fa-utensils,
+.fa-coffee,
+.fa-birthday-cake {
+    font-size: 60px;
+}
+
+.section {
+    h3 {
+        font-size: 28px;
+    }
+}
+
+.bg-gray {
+    background: #f8f9fa;
+}
+
+.present {
+    position: relative;
+    color: #fff;
+
+    .img {
+        position: absolute;
+        background: url(https://images.unsplash.com/photo-1481185103603-1dc844ef51db?dpr=2&auto=format&fit=crop&w=1080&h=718&q=80&cs=tinysrgb&crop=);
+        background-position: center center;
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .present,
+    .happy {
+        color: black;
+    }
+}
+
+.happy {
+    position: relative;
+    z-index: 99999;
+    color: #fff;
+    font-size: 16px;
+
+    .img {
+        position: absolute;
+        background: url(https://images.unsplash.com/photo-1498309313100-e308c8946b45?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=);
+        background-position: center center;
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 768px) {
+    .happy {
+        color: black;
+    }
+
+
+}
+
+.map {
+    margin-top: 1rem;
+}
+
+label {
+    cursor: pointer;
+}
+
+.form-control {
+    border-width: 2px;
+}
+
+form {
+    position: relative;
+}
+
+.position {
+    position: absolute;
+}
+
+
+
+.img-one {
+    background: url(https://images.unsplash.com/photo-1484834762280-66a18a5a8f0b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+}
+
+.img-two {
+    background: url(https://images.unsplash.com/photo-1476029764343-569b983f5785?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+}
+
+.bg {
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-outline-warning:hover {
+    color: #fff;
+}
+
+.footer {
+    ul {
+        margin: 0;
+    }
+
+    li {
+        list-style-type: none;
+        padding-right: 0.5rem;
+        font-size: 16px;
+    }
+}
